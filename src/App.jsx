@@ -1,5 +1,19 @@
-function App (){
-  return <h1>Hello World!!</h1>
+import Navbar from './components/Navbar';
+import Intro from './components/Intro';
+
+function App() {
+  return (
+    <>
+
+      <nav>
+        <Navbar />
+      </nav>
+      <section>
+        <Intro />
+      </section>
+
+    </>
+  )
 }
 
 export default App;
